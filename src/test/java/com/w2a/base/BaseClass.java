@@ -12,6 +12,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
+import com.w2a.utilities.ExcelReader;
+
 public class BaseClass {
 	
 	public WebDriver driver;
@@ -19,7 +21,7 @@ public class BaseClass {
 	public static Properties OR = new Properties();
 	public static FileInputStream fis;
 	public static Logger log = Logger.getLogger("devpinoyLogger");
-	
+	public static ExcelReader excel = new ExcelReader(System.getProperty("user.dir")+ "\\src\\test\\resources\\excel\\UITestData.xlsx");
 	
 	
 	

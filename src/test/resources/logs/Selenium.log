@@ -1,4 +1,3 @@
-09:10:03,455 DEBUG devpinoyLogger:38 - Config file loaded
-09:10:03,458 DEBUG devpinoyLogger:52 - OR file loaded
-09:10:07,772 DEBUG devpinoyLogger:62 - Chrome Browser loaded
-09:10:17,521 DEBUG devpinoyLogger:15 - Login successfully
+15:05:30,139 DEBUG devpinoyLogger:40 - Config file loaded
+15:05:30,142 DEBUG devpinoyLogger:54 - OR file loaded
+15:05:34,404 DEBUG devpinoyLogger:64 - Chrome Browser loaded
